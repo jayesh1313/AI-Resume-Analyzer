@@ -260,12 +260,12 @@ def run():
 
                 ## Showing Analyzed data from (resume_data)
                 st.header("**Resume Analysis 🤘**")
-                st.success("Hello "+ resume_data['name'])
+                st.success("Hello "+ str(resume_data['name']))
                 st.subheader("**Your Basic info 👀**")
                 try:
-                    st.text('Name: '+resume_data['name'])
-                    st.text('Email: ' + resume_data['email'])
-                    st.text('Contact: ' + resume_data['mobile_number'])
+                    st.text('Name: '+str(resume_data['name']))
+                    st.text('Email: ' + str(resume_data['email']))
+                    st.text('Contact: ' + str(resume_data['mobile_number']))
                     st.text('Degree: '+str(resume_data['degree']))                    
                     st.text('Resume pages: '+str(resume_data['no_of_pages']))
 
