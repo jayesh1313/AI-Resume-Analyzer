@@ -1,7 +1,7 @@
-# Developed by dnoobnerd [https://dnoobnerd.netlify.app]    Made with Streamlit
+
 
 import nltk
-nltk.download('stopwords',download_dir='E:\\nltk_data')
+nltk.download('stopwords',download_dir='/Users/pranavpandey/nltk_data')
 ###### Packages Used ######
 
 import streamlit as st # core package used in this project
@@ -93,7 +93,7 @@ def course_recommender(course_list):
 
 
 # sql connector
-connection = pymysql.connect(host='localhost',user='root',password='root@MySQL4admin',db='cv')
+connection = pymysql.connect(host='localhost',user='root',password='Pranav25',db='cv')
 cursor = connection.cursor()
 
 
